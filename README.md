@@ -9,3 +9,5 @@
 1. 运行 `npm install gulp -g` 添加gulp全局命令
 1. 运行 `npm install gulp --save-dev` 命令,将gulp添加到项目中
 1. 运行 `npm install load-gulp-tasks --save-dev` 命令,将拆分gulp任务的插件添加到项目中
+1. 运行 `npm install bootstrap --save` 命令,加载Bootstrap
+1. 将 `node_modules/bootstrap/dist` 文件夹下的fonts、js拷贝到相应的文件夹下
