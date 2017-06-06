@@ -6,6 +6,8 @@ var options={
     }
 };
 
-var plugins={};
+var plugins={
+    less:require('gulp-less')
+};
 require('load-gulp-tasks')(gulp,options,plugins);
 gulp.task('dist',['compless']);
